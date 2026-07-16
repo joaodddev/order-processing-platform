@@ -1,4 +1,4 @@
-package br.com.joaodddev.orderservice.domain.model.order;
+package br.com.joaodddev.orderservice.domain.model.shared;
 
 import br.com.joaodddev.orderservice.domain.model.valueobject.ValueObject;
 

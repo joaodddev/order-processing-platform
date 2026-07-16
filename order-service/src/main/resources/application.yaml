@@ -1,3 +1,35 @@
 spring:
+
   application:
     name: order-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/order_platform
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+    open-in-view: false
+
+    properties:
+      hibernate:
+        default_schema: order_service
+        format_sql: true
+
+  flyway:
+    enabled: true
+
+management:
+
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+
+  level:
+    org.flywaydb: INFO

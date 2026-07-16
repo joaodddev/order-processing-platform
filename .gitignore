@@ -1,0 +1,37 @@
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Maven
+target/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+
+# Docker
+docker-data/
+
+# Coverage
+coverage/
+
+# JaCoCo
+.jacoco/
+
+# Testcontainers
+.tc/
+
+# Lombok
+.lombok/
+
+# Misc
+out/

@@ -1,4 +1,4 @@
-package br.com.joaodddev.orderservice.application.usecase.impl;
+package br.com.joaodddev.orderservice.application.usecase.order;
 
 import br.com.joaodddev.orderservice.application.command.CreateOrderCommand;
 import br.com.joaodddev.orderservice.application.port.out.OrderRepository;

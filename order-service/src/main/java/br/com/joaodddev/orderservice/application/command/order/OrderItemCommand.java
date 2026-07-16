@@ -1,4 +1,4 @@
-package br.com.joaodddev.orderservice.application.command;
+package br.com.joaodddev.orderservice.application.command.order;
 
 import java.math.BigDecimal;
 
